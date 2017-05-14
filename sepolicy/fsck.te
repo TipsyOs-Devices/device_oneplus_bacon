@@ -1,1 +1,2 @@
-allow fsck block_device:blk_file { open read write ioctl getattr };
+allow fsck block_device:blk_file { ioctl getattr };
+# >neverallow< allow fsck block_device:blk_file { open read write };
