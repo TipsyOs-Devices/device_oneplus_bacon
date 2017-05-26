@@ -84,3 +84,7 @@ wifi.interface=wlan0
 persist.service.adb.enable=1                                                    
 persist.service.debuggable=1
 persist.sys.usb.config=mtp,adb
+
+# verifieddbs set to 1 to return verified boot state always green
+persist.gzr.hide_verifiedbs=1
+ro.boot.verifiedbootstate=green
