@@ -20,9 +20,8 @@ on fs
     mount_all ./fstab.bacon
 
 on init
-    export LD_SHIM_LIBS "/system/vendor/lib/hw/camera.vendor.bacon.so|libshim_camera.so:/system/lib/libcamera_client.so|libshim_camera_parameters.so"
-
-    # Support legacy paths
+   
+   # Support legacy paths
     symlink /sdcard /storage/sdcard0
 
 on post-fs-data
