@@ -1,17 +1,12 @@
 [
   {
-    "repository": "ValidusOs-Devices/device_oneplus_bacon",
+    "repository": "TipsyOs-8/device_oneplus_bacon",
     "target_path": "device/oneplus/bacon",
     "branch": "8.1"
   },
   {
     "repository": "LineageOs/android_kernel_oppo_msm8974",
     "target_path": "kernel/oppo/msm8974",
-    "branch": "lineage-15.1"
-  },
-  {
-    "repository": "ValidusOs-Devices/android_device_oppo_common",
-    "target_path": "device/oppo/common",
     "branch": "lineage-15.1"
   },
   {
