@@ -119,4 +119,7 @@
     <!-- Whether device has button lights support -->
     <bool name="config_button_brightness_support">true</bool>
 
+    <!-- Button illumination -->
+    <bool name="config_deviceHasVariableButtonBrightness">true</bool>
+    
 </resources>
