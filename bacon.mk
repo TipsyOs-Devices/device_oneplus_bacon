@@ -71,4 +71,4 @@ PRODUCT_PACKAGES += \
 $(call inherit-product, vendor/oneplus/bacon/bacon-vendor.mk)
 
 # Inherit from msm8974-common
-$(call inherit-product, device/oppo/msm8974-common/msm8974.mk)
+#$(call inherit-product, device/oppo/msm8974-common/msm8974.mk)
