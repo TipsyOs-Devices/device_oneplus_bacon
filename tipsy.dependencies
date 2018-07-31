@@ -15,6 +15,11 @@
     "branch": "lineage-15.1"
   },
   {
+    "repository": TipsyOs-8/android_device_oppo_msm8974-common",
+    "targetpath": "device/oppo/msm8974-common",
+    'branch": "lineage-15.1"
+  },
+  {
     "repository": "LineageOS/android_packages_resources_devicesettings",
     "target_path": "packages/resources/devicesettings",
     "branch": "lineage-15.0"
